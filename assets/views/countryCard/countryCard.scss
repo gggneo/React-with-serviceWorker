@@ -1,0 +1,46 @@
+.country-card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  max-width: 250px;
+  width: 100%;
+
+  background-color: white;
+  color: black;
+
+  padding: 30px 10px;
+  margin: 10px 10px;
+
+  &__image {
+    max-height: 200px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    img {
+      object-fit: contain;
+      max-height: 150px;
+      max-width: 200px;
+
+      box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    }
+  }
+
+
+  h4 {
+    margin-top: 20px;
+  }
+
+  button {
+    margin-top: auto;
+
+    transform: translateY(20px);
+  }
+
+}

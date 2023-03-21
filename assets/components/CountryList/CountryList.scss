@@ -1,0 +1,35 @@
+.country-list {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 3s ease;
+
+  &--visible {
+    opacity: 1;
+  }
+
+
+  &__countries {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+    .button--load {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: -60px;
+    }
+  }
+}

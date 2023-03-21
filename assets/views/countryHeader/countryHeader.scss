@@ -1,0 +1,28 @@
+.country-header {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  margin: 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 10px 20px;
+
+  min-height: 70px;
+  border-radius: 25px;
+
+  width: auto;
+
+
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
